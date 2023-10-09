@@ -1,0 +1,144 @@
+
+@import url('https://fonts.googleapis.com/css2? family= Bruno+Ace & family= Gwendolyn:wght@400;700 & family= Prompt & display=swap');
+
+:root
+{
+    --cor-de-fundo : #0b0b0d;
+    --cor-verde-mais-escuro : #6bb39b;
+    --cor-verde-mais-claro :#85e6c0;
+    --cor-azul-claro:#daf3ea;
+    --cor-branca:#f7f4e8;
+    --fonte-principal:'Gwendolyn' , cursive;
+}
+body
+{
+    background-color: var(--cor-de-fundo);
+    color: var(--cor-branca);
+    font-family: var(--fonte-principal) ;
+    font-size: 16px;
+    font-weight: 400;
+}
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+.seção
+{
+    background-image: url("/assets/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+.container
+{
+   height: 67vh;
+   display: grid;
+   grid-template-columns: 50% 50%;
+}
+.container__caixa
+{
+    margin: 0 6em;
+}
+.container__title
+{
+    font-size: 28px;
+    font-weight: 700;
+}
+.container__img
+{
+    margin: 1em 0 2em 0;
+}
+.container__botao
+{
+    background-color: var(--cor-azul-claro);
+    border-radius: 7px;
+    padding: 1em;
+    color: var(--cor-verde-mais-escuro);
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+.botao_secundario
+{
+    background-color: transparent;
+    border: 2px solid var(--cor-branca);
+}
+.container__aviso
+{
+    font-size: 12px;
+    color: var(--cor-verde-mais-claro);
+}
+.secundario
+{
+    align-items: center;
+    margin: 0 10em;
+}
+.secundario__img
+{
+    width: 80%;
+}
+.descricao__titulo
+{
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--cor-branca);
+    margin-bottom: 0.1em;
+
+}
+.descricao__texto
+{
+    color: var(--cor-azul-claro);
+}
+.container__descricao
+{
+    padding: 2em;
+}
+.secundario__botao
+{
+    display: inline-block;
+    margin-top: 1em;
+}
+.dispositivos
+{
+    text-align: center;
+}
+.dispositivos__lista
+{
+    display: flex;
+    list-style-type: none;
+    margin: 5em 0;
+    margin-left: 7em;
+    /*O margin-left eu coloquei por conta do meu munitor ser antigo*/
+}
+.dispositivos__titulo
+{
+    font-size: 48px;
+}
+.lista__item
+{
+    font-size: 32px;
+}
+.rodape
+{
+    text-align: center;
+}
+.rodape__img
+{
+    margin-bottom: 1em;
+}
+.rodape__lista
+{
+    display: flex;
+    gap: 2.5em;
+    list-style-type: none;
+    margin-left: 0.5em;
+
+}
+.rodape__texto
+{
+    color: var(--cor-verde-mais-claro);
+    padding: 1em;
+    text-decoration: none;
+}
